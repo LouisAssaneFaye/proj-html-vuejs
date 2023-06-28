@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/variables';
 @use '../styles/partials/mixins';
-
+ 
 div.appHeaderContainer{
     z-index: 3;
     display: flex;

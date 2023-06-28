@@ -78,7 +78,7 @@ div.appMain{
         border-radius: 50%;
         position: fixed;
         top:245px;
-        left:10px
+        left:10px 
     }
 }
     
