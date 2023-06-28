@@ -24,6 +24,7 @@
        <div class="gear">
           <i class="fa-solid fa-gear"></i>
        </div>
+
     </div>
 </template>
 <script>
@@ -80,6 +81,7 @@ div.appMain{
         top:245px;
         left:10px 
     }
-}
+   
+ }
     
 </style>

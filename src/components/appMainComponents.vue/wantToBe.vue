@@ -62,6 +62,9 @@ export default {
                 color: white;
                 font-weight: bold;
             }
+            button:hover{
+                background-color: rgb(0, 0, 184);
+            }
         }
 
 

@@ -95,6 +95,9 @@ export default {
                     width: 6.5rem;
                     border: 1px solid blue;
                 }
+                button.blueButton:hover{
+                    background-color: rgb(0, 0, 184);
+                }
                 button.whiteButton{
                     font-weight: bold;
                     border: 1px solid blue;
@@ -103,10 +106,17 @@ export default {
                     height: 1.9rem;
                     width:7.5rem
                 }
+                button.whiteButton:hover{
+                    background-color: blue;
+                    color: white;
+                    
+                }
             }
             span.secondSpan{
                     color: grey;
             }
+            
+            
 
         }
     }

@@ -118,6 +118,21 @@ div.appFooter{
                 list-style-type: none;
                 li{
                     margin-right: 23px;
+                    i{
+                        height: 2rem;
+                        width: 2rem;
+                        padding-left: 0.5rem;
+                        line-height: 2rem;
+                        border-radius: 10px;
+                    }
+                }
+                li:hover{
+                    background-color: blue;
+                    i{
+                        height: 2rem;
+                        width: 2rem;
+                        line-height: 2rem;
+                    }
                 }
             }
         }
@@ -131,6 +146,9 @@ div.appFooter{
                 li{
                     margin-bottom: 8px;
                 }
+                li:hover{
+                    color: #e2e8ef;
+                }
             }
         }
         div.usefull{
@@ -142,6 +160,9 @@ div.appFooter{
                 list-style-type: none;
                 li{
                     margin-bottom: 11px;
+                }
+                li:hover{
+                    color: #e2e8ef;
                 }
             }
         }
@@ -174,6 +195,11 @@ div.appFooter{
                     border: 0;
                     color: blue;
                     font-weight: bold;
+                    
+                }
+                button:hover{
+                    color: white;
+                    background-color: blue
                     
                 }
             }
