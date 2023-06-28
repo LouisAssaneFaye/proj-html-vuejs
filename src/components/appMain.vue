@@ -62,22 +62,22 @@ div.appMain{
         height: 3rem;
         width: 3rem;
         position: fixed;
-        top: 600px;
+        top: 650px;
         right: 30px;
        }
     div.gear{
-        
+
         display: inline-block;
         text-align: center;
         line-height: 3rem;
         height: 3rem;
         width: 3rem;
         color: blue;
-        background-color: grey;
+        background-color: white;
         font-size: 1.5rem;
         border-radius: 50%;
         position: fixed;
-        top:300px;
+        top:245px;
         left:10px
     }
 }
