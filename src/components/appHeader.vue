@@ -7,108 +7,7 @@
         
         <div class="appHeader">
             <ul>
-                <li class="home">HOME</li>
-                <li class="landing">LANDING</li>
-                <li class="pages">PAGES</li>
-                <li class="demos">DEMOS</li>
-                <li class="components">COMPONENTS</li>
-                <li class="docs">DOCS</li>
-                <div class="landingHover">
-                   <div>
-                       <ul>
-                          <li class="title">LANDING PAGES</li>
-                          <li>SAAS</li>
-                          <li>CLASSIC SAAS</li>
-                          <li>MODERN SAAS</li>
-                          <li>AGENCY</li>
-                          <li>APPLICATION</li>
-                          <li>CLASSIC APP</li>
-                          <li>MODERN APP</li>
-                          <li>STUDIO</li>
-                          <li>MARKETING</li>
-                          <li>ENTERPRISE</li>
-                          <li>SERVICE</li>
-                          <li>PAYMENTS</li>
-                          <li>IT SOLUTION</li>
-                          <li>IT SOLUTIONS TWO</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                          <li class="title">LANDING PAGES</li>
-                          <li>DEVELOPER</li>
-                          <li>SEO AGENCY</li>
-                          <li>HOSPITAL</li>
-                         <li>COWORKING</li>
-                         <li>BUSINESS</li>
-                         <li>MODERN BUSINESS</li>
-            <li>FINANCE</li>
-            <li>DELIVERY AND LOGISTICS</li>
-            <li>SOCIAL MEDIA</li>
-            <li>DIGITAL AGENCY</li>
-            <li>CUSTOMER</li>
-            <li>SOFTWARE</li>
-            <li>YOGA</li>
-            <li>GYM & FITNESS</li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li class="title">LANDING PAGES</li>
-            <li>HOTEL</li>
-            <li>RESTURANT</li>
-            <li>CONSTRUCTIONL</li>
-            <li>VIDEO CONFERENCE</li>
-            <li>BLOCKCHAIN</li>
-            <li>CRYPTOCURRENCY TWO</li>
-            <li>INTEGRATION</li>
-            <li>TASK MANAGEMENT</li>
-            <li>EMAIL INBOX</li>
-            <li>TRAVEL</li>
-            <li>COURSE</li>
-            <li>ONLINE LEARNING</li>
-            <li>INSURANCE</li>
-            <li>FURNITURE</li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li class="title">LANDING PAGES</li>
-            <li>LAW FIRM</li>
-            <li>PRODUCT</li>
-            <li>CAR RIDE</li>
-            <li>LANDING ONE</li>
-            <li>LANDING TWO</li>
-            <li>LANDING THREE</li>
-            <li>LANDING FOUR</li>
-            <li>CHARITY</li>
-            <li>PERSONAL</li>
-            <li>CRATIVE PERSONAL</li>
-            <li>FREELANCE</li>
-            <li>EVENT</li>
-            <li>E-BOOK</li>
-            <li>SASS</li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li class="title">FULL DEMOS</li>
-            <li>CORPORATE</li>
-            <li>CRYPTOCURRENCY</li>
-            <li>SHOP</li>
-            <li>PORTFOLIO</li>
-            <li>HELP CENTER</li>
-            <li>HOSTING & DOMAIN</li>
-            <li>JOBS & CAREERS</li>
-            <li>VIDEO STUDIO</li>
-            <li>REAL ESTATE</li>
-            <li>FORUMS</li>
-            <li>BLOG OR NEWS</li>
-            <li>NFT MARKETPLACE</li>
-            <li>PHOTOGRAPHY</li>
-            </ul>
-        </div>
-        </div>
+                <links />
             </ul>
         </div>
 
@@ -121,7 +20,17 @@
     </div>
 </template>
 <script>
+import links from './appHeaderComponents.vue/links.vue';
 export default {
+    name:'appHeader',
+    data(){
+        return{
+
+        }
+    },
+    components:{
+        links
+    }
     
 }
 </script>
@@ -130,7 +39,8 @@ export default {
 @use '../styles/partials/mixins';
  
 div.appHeaderContainer{
-   position: relative;
+    position: fixed;
+    right: 10%;
     display: flex;
     justify-content: space-between;
     width:80%;

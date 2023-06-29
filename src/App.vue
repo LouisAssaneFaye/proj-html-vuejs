@@ -13,12 +13,19 @@ export default {
 </script>
 
 <template>
-  <appHeader />
+  <div class="appHeader">
+    <appHeader />
+  </div>
   <appMain />
   <appFooter />
 </template>
 
 <style lang="scss" >
 @import './styles/general.scss';
+div.appHeaderContainer{
+ position: fixed;
+ z-index: 1;
+ background-color: white;
+}
 
 </style>

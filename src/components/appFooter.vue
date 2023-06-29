@@ -27,14 +27,7 @@
                     Company
                 </h3>
                 <ul>
-                    <li>About us</li>
-                    <li>Services</li>
-                    <li>Team</li>
-                    <li>Pricing</li>
-                    <li>Project</li>
-                    <li>Careers</li>
-                    <li>Blog</li>
-                    <li>Login</li>
+                    <linksOne />
                 </ul>
             </div>
             <div class="usefull">
@@ -42,11 +35,7 @@
                     Usefull Liks
                 </h3>
                 <ul>
-                    <li> Terms of Services</li>
-                    <li>Privacy Policy</li>
-                    <li>Documentation</li>
-                    <li>Changelog</li>
-                    <li>Components</li>
+                    <linksTwo />
                 </ul>
             </div>
             <div class="newsletter">
@@ -84,7 +73,20 @@
     </div>
 </template>
 <script>
+import linksOne from './appFooterComponents.vue/linksOne.vue';
+import linksTwo from './appFooterComponents.vue/linksTwo.vue';
 export default {
+    name:'appFooter',
+    data(){
+        return{
+
+        }
+    },
+    components:{
+        linksOne,
+        linksTwo
+        
+    }
     
 }
 </script>
@@ -143,12 +145,6 @@ div.appFooter{
             }
             ul{
                 list-style-type: none;
-                li{
-                    margin-bottom: 8px;
-                }
-                li:hover{
-                    color: #e2e8ef;
-                }
             }
         }
         div.usefull{
@@ -158,12 +154,6 @@ div.appFooter{
             }
             ul{
                 list-style-type: none;
-                li{
-                    margin-bottom: 11px;
-                }
-                li:hover{
-                    color: #e2e8ef;
-                }
             }
         }
         div.newsletter{
